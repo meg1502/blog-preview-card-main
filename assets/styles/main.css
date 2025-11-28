@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+
+:root {
+    --color-yellow: #F4D04E;
+    --color-gray-950: #111111;
+    --color-gray-500: #6B6B6B;
+    --space-300: 24px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+}
+
+.font-1 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.font-2 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.font-3 {
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.font-3-bold {
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.card {
+  background-color: white;
+  width: 280px;
+  padding: var(--space-200);
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-gray-950);
+  text-align: left;
+  box-shadow: var(--space-100) var(--space-100);
+  padding: var(--space-300);
+  color: var(--color-gray-950);
+}
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: var(--color-yellow);
+  min-height: 100vh; 
+}
+
+.article-preview {
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.category-tag {
+  background-color: var(--color-yellow);
+  width: fit-content;
+  padding: var(--space-50) var(--space-150);
+  border-radius: 4px;
+  margin: var(--space-100) 0;
+}
+
+.article-info {
+  color: var(--color-gray-500)
+}
+
+.author {
+  margin-top: var(--space-300);
+  display: flex;
+  align-items: center;
+  gap: var(--space-100);
+}
+
+.author img {
+  width: 36px;
+  object-fit: contain;
+}
