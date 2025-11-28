@@ -110,3 +110,8 @@ body {
   width: 36px;
   object-fit: contain;
 }
+
+.article-title:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+}
